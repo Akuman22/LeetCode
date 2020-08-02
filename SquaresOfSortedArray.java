@@ -24,7 +24,6 @@ class Solution {
     public int[] sortedSquares(int[] A) {
         int negLength = 0;
         int posLength = 0;
-        int finalArray[] = new int[A.length];
         for (int i = 0; i<A.length; i++) {
             if(A[i] <=0) negLength +=1;
             else posLength +=1;
@@ -40,11 +39,13 @@ class Solution {
                 positiveArray[i - negLength] = A[i] * A[i];
             }
         }
+        A = null;
+        int finalArray[] = new int[posLength + negLength];
         int i = 0;
         int j = 0;
         int k = 0;
  
-        while (k < A.length) {
+        while (k < finalArray.length) {
             if ((j >= posLength ) || (i < negLength && negativeArray[i] <= positiveArray[j])) {
                 finalArray[k] = negativeArray[i];
                 i++;
@@ -55,6 +56,7 @@ class Solution {
                 k++;
             }
         }
+
         return finalArray;
     }
 }
