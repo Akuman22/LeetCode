@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/Master/src/main/java/com/cerner/revcycle/portal/WebSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/Master/src/main/java/com/cerner/revcycle/portal/web/StaticController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/REVCYCLECM-17278/.idea/runConfigurations/Application.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/REVCYCLECM-17278/src/main/webapp/cm/soarian/js/cmsControllers.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/REVCYCLECM-17278/src/main/webapp/cm/soarian/js/ppsProfProviderValues.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/REVCYCLECM-17278/src/main/webapp/cm/soarian/partials/contract/associateRateSheets.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/REVCYCLECM-17278/src/main/webapp/cm/soarian/partials/pps/ppsProviderValues.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/REVCYCLECM-17278/src/main/webapp/common/js/directives.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/ca_release_2020.08/.idea/runConfigurations/Application.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/ca_release_2020.08/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/ca_release_2020.08/src/main/java/com/cerner/revcycle/portal/framework/services/CCMEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/ca_release_2020.08/src/main/java/com/cerner/revcycle/portal/web/StaticController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RWCM/web-framework/ca_release_2020.08/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
