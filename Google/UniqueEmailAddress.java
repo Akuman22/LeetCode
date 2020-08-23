@@ -34,12 +34,17 @@ Local names do not start with a '+' character.
 class Solution {
     public int numUniqueEmails(String[] emails) {
         Set<String> setOfEmails = new HashSet<>();
+        int ref;
         for (String element: emails) {
-            while(element.indexOf('.') < element.indexOf('@') && element.indexOf('.') >= 0) {
-                element = element.substring(0, element.indexOf('.')) +  element.substring(element.indexOf('.') + 1);
+            ref = element.indexOf('.');
+            while(ref < element.indexOf('@') && ref >= 0) {
+                element = element.substring(0, ref) +  element.substring(ref + 1);
+                ref = element.indexOf('.');
             }
-            while(element.indexOf('+') < element.indexOf('@') && element.indexOf('+') >= 0) {
-                element = element.substring(0, element.indexOf('+')) +  element.substring(element.indexOf('@'));
+            ref = element.indexOf('+');
+            while(ref < element.indexOf('@') && ref >= 0) {
+                element = element.substring(0, ref) +  element.substring(element.indexOf('@'));
+                ref = element.indexOf('+');
             }
             setOfEmails.add(element);
         }
